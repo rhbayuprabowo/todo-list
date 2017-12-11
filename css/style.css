@@ -1,9 +1,15 @@
-body {
-  background: rgb(250, 249, 253);
+.completed {
+    color: darkgrey;
+    text-decoration: line-through;
 }
 
 .container {
-  width: 360px;
-  margin: 0 auto;
-  border: 1px solid black;
+	box-sizing: border-box;
+    border: 1px solid black;
+    width: 360px;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(250, 249, 253);
 }
