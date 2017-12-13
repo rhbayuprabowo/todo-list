@@ -9,10 +9,14 @@ $('ul').on('click', 'span', function(e) {
   e.stopPropagation();
 });
 
-$('input[type=\'text\']').keypress(function(e) {
+$('input[type=\'text\']').keypress(function (e) {
   if (e.which === 13) {
     var value = $(this).val();
     $(this).val('');
-    $('ul').append('<li><span>X</span> ' + value + '</li>');
+    $('ul').append('<li><span><i class="fa fa-trash"></i></span> ' + value + '</li>');
   }
+});
+
+$(".fa-sticky-note").on("click", function () {
+  $('input[type =\'text\']').slideToggle();
 });

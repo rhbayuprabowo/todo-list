@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Todo List</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
 </head>
+
 <body>
   <div class="container">
-    <h1>To-Do List</h1>
-    <p><input type="text" placeholder="Insert your task here"></p>
+    <h1>To-Do List <i class="fa fa-sticky-note"></i></h1>
+    <input type="text" placeholder="Insert your task here">
     <ul>
-      <li><span>X</span> Find a chocolate</li>
-      <li><span>X</span> Buy a milk</li>
-      <li><span>X</span> Eat a cheese</li>
-      <li><span>X</span> Make an ice cream</li>
+      <li>
+        <span>
+          <i class="fa fa-trash"></i>
+        </span> Find a chocolate</li>
+      <li>
+        <span>
+          <i class="fa fa-trash"></i>
+        </span> Buy a milk</li>
+      <li>
+        <span>
+          <i class="fa fa-trash"></i>
+        </span> Eat a cheese</li>
+      <li>
+        <span>
+          <i class="fa fa-trash"></i>
+        </span> Make an ice cream</li>
     </ul>
   </div>
   <!-- script -->
   <script src="js/todo-list.js" charset="utf-8"></script>
 </body>
+
 </html>
