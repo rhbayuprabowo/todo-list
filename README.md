@@ -1,4 +1,4 @@
-# patatapo
+# Todo List
 
 This project is a simple todo-list project
 
